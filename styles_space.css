@@ -1,0 +1,98 @@
+/******************************Tag selectors***********************************/
+html{
+  background-color: white;
+}
+
+body{
+  color: white;
+  background-color: black;
+  margin: 2% 10% 0 10%;
+  background-image: url("Images/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+
+text-transform: uppercase;
+letter-spacing: 1rem;
+font-family: 'Cormorant Garamond', serif;
+font-weight: lighter;
+font-size: 6rem;
+}
+
+h2{
+  font-family: 'Manrope', sans-serif;
+  text-transform:uppercase;
+  letter-spacing: 0.1rem;
+}
+
+p{
+  width: 35%;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1rem;
+}
+/******************************Class selectors***********************************/
+.star{
+  display: inline-block;
+  position: absolute;
+  left: 10%;
+  height: 2rem;
+  width: 2rem;
+  margin: 2rem 5rem 0 4rem;
+}
+
+.ribbon{
+  display: flex;
+  width: 55%;
+  position: absolute;
+  right:0;
+  text-align: center;
+  backdrop-filter: blur(15px);
+  font-family: 'Manrope', sans-serif;
+}
+
+.ribbon_text{
+  margin: 2rem;
+  text-transform: uppercase;
+}
+
+.numbering{
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+.text{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-content: center;
+  padding: 10% 5%;
+}
+
+.circle{
+  display: block;
+  position: relative;
+  left: 75%;
+  bottom: 300px;
+  height: 250px;
+  width: 250px;
+  margin-bottom: -300px;
+  line-height: 250px;
+  color: black;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
+
+/******************************Id selectors***********************************/
+#home{
+  border-bottom: solid white 1px;
+}
